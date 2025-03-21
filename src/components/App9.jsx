@@ -7,9 +7,6 @@ export default function App9() {
     const [total, setTotal] = useState(0);
     useEffect(() => {
         setTotal(Number(v1) + Number(v2));
-    } , [v1,v2]);
-    useEffect(() => {
-        setTotal(Number(v1) + Number(v2));
     }, [v1]);
     useEffect(() => {
         setTotal(Number(v1) * Number(v2));
