@@ -27,7 +27,7 @@ export default function App13() {
           <option value="/app12">App12</option>
           <option value="/app13">App13</option>
         </select>
-        <button onClick={showApp}> show App10</button><br></br>
+        <br></br>
         <Link to = "/app10">App 10</Link>
     </div>
   )
